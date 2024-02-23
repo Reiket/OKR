@@ -1,0 +1,99 @@
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
+body, html {
+    margin: 0;
+}
+
+body {
+    padding: 10px;
+    background-color: #606060;
+    line-height: 1.2;
+    font-size: 14px;
+}
+
+
+.paragraph {
+    color: #000000 !important;
+    font-size: 16px;
+    font-weight: 400;
+    font-style: normal;
+    line-height: 1.2;
+}
+
+h1 {
+    font-size: 30px;
+    color: #fff;
+    font-weight: 700;
+    line-height: 1.2;
+}
+
+
+a {
+    text-decoration: none;
+    color: green;
+    font-size: 1rem;
+    line-height: 1.2;
+    font-weight: 500;
+}
+
+#card, #goal {
+    color: red;
+    font-weight: 700;
+}
+
+ul {
+    display: flex;
+    align-items: center;
+    gap: 3rem;
+    list-style: none;
+    padding: 20px;
+    border-bottom: 1px solid #fff;
+    li a {
+        color: #ffffff;
+        font-size: 20px;
+        font-weight: 600;
+    }
+}
+
+ol {
+    li {
+        color: #ffffff;
+        font-size: 20px;
+        font-weight: 500;
+        padding-bottom: 15px;
+    }
+}
+
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    border-spacing: 0;
+    margin-bottom: 30px;
+}
+
+th, td {
+    padding: 10px;
+    border: 1px solid #000;
+    text-align: center;
+    a {
+        color: #ffffff;
+    }
+}
+
+.col1 {
+    background-color: lightblue;
+}
+
+.col2 {
+    background-color: lightgreen;
+}
+
+.col3 {
+    background-color: lightyellow;
+}
+
