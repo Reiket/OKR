@@ -13,6 +13,10 @@ body {
     background-color: #606060;
     line-height: 1.2;
     font-size: 14px;
+    background-image: url('https://st3.depositphotos.com/8159024/16422/i/450/depositphotos_164227780-stock-photo-opening-intro-flash-light-lens.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
 }
 
 
@@ -85,6 +89,8 @@ th, td {
     }
 }
 
+
+
 .col1 {
     background-color: lightblue;
 }
@@ -96,4 +102,32 @@ th, td {
 .col3 {
     background-color: lightyellow;
 }
+
+
+.intro .paragraph {
+    font-size: 20px;
+    color: #ffffff !important;
+}
+
+
+.card a + img {
+    max-width: 100%;
+    height: auto;
+    object-fit: cover;
+}
+
+.card + .text {
+    border-top: 2px solid #000000;
+    padding-top: 50px;
+}
+
+.paragraph > span {
+    font-weight: 700;
+    color: #ffffff;
+}
+.card > img, .card a > img {
+    width: 400px;
+    height: 400px;
+}
+
 
